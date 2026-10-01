@@ -672,13 +672,31 @@ section h2 {
     transform: translateY(-2px);
 }
 
+#contact-form input.invalid {
+    border-color: #dc2626;
+    box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.15);
+}
+
 #form-message {
     margin-top: 15px;
-
     text-align: center;
-
     font-weight: bold;
+    font-size: 15px;
+    line-height: 1.4;
 }
+
+.success-msg {
+    color: #16a34a;
+}
+
+.error-msg {
+    color: #dc2626;
+}
+
+.info-msg {
+    color: #0284c7;
+}
+
 
 
 /* ================================
